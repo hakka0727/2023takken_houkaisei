@@ -24,10 +24,19 @@ a:active {
 h1{
   background-color:aquamarine;
   padding-left: 2px;
+ margin: 21.44px 0px 21.44px 0px;
 }
 h3{
   background-color: aliceblue;
   padding-left: 4px;
+  margin: 18.72px 0px 18.72px 0px;
+}
+h5{
+ margin: 22.178px 0px 22.178px 0px;
+ padding: 3px;
+}
+p{
+margin: 16px 0px 16px 0px;	
 }
 .back-to-top {
   z-index: 100;
