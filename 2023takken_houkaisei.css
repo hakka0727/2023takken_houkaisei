@@ -1,0 +1,105 @@
+@charset"utf-8";
+body{
+  margin: 0 10px 0 10px;
+}
+
+
+.red{
+  color: red;
+}
+ ul a:hover{
+	color: blue;
+	font-weight: bold;
+}
+h1{
+  background-color:aquamarine;
+  padding-left: 2px;
+}
+h3{
+  background-color: aliceblue;
+  padding-left: 4px;
+}
+.back-to-top {
+  z-index: 100;
+  position: fixed;
+  right: 30px;
+  bottom: 50px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  background: blue;
+  cursor: pointer;
+}
+.back-to-top a {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.back-to-top a:before {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  transform: rotate(-45deg);
+  border-top: solid 2px #ffffff;
+  border-right: solid 2px #ffffff;
+  content: "";
+  transform: rotate(-45deg) translate(-17%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.space{
+  height: 50px;
+}
+.line{
+  border-bottom: 1px solid #000000;
+  }
+
+  .hyoudai{
+background-color: aquamarine;
+padding-left: 10px;
+  }
+
+  .mae{
+    background-color: burlywood;
+    width: 40px;
+    padding: 3px;
+    border-radius: 2px;
+
+  }
+
+  .go{
+background-color: yellow;
+    width: 40px;
+    padding: 3px;
+    border-radius: 2px;
+  }
+
+  .sin{
+    background-color: deeppink;
+    width: 30px;
+        padding: 3px;
+        border-radius: 2px;
+      }
+    
+  .hinsyutu{
+    width: 120px;
+    position: absolute;
+    right: 30px;
+    top: 18px;
+  }
+  @media screen and (min-width: 959px) {
+    /* 959px以下に適用されるCSS（タブレット用） */
+    body{
+      width: 900px;
+      margin: auto;
+      .hinsyutu{
+        width: 120px;
+        position: absolute;
+        right: 400px;
+        top: 28px;
+      }
+    
+    }
+  }
