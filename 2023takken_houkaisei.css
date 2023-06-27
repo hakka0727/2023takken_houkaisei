@@ -119,10 +119,15 @@ line-height: 1.7;
 .space{
   height: 50px;
 }
-.line{
-  border-bottom: 1px solid #000000;
+.line0{
+  /*border-bottom: 1px solid #000000;*/
+  border-bottom: solid 1px #000000;
   }
-
+  .line{
+    /*border-bottom: 1px solid #000000;*/
+    border-bottom: solid 2px blue;
+    }
+  
   .hyoudai{
 background-color: aquamarine;
 padding-left: 10px;
