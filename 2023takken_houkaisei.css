@@ -1,42 +1,90 @@
 @charset"utf-8";
+
 body{
   margin: 0 10px 0 10px;
+  letter-spacing: 0.8px;
+
+font-family: Meiryo;
 }
+
 a {
   color: black;
+ 
 }
 a:hover {
   color: blue;
+    cursor: pointer;
 }
 
 a:active {
   color: green;
 }
+h1{
+  background-color:aquamarine;
+  padding-left: 8px;
+  padding-top:25px;
+  margin: 21.44px 0 21.44px 0;
+  height: 48px;
+  font-size: 160%;
+ font-weight: 600;
 
+}
 
+h3{
+  background-color: aliceblue;
+  padding-left: 4px;
+  margin: 27.72px 0px 18.72px 0px;
+  font-size: 104%;
+  font-weight: 600;
+  line-height: 24px;
+
+ 
+  height: 56px;
+  
+  
+  
+  /* padding-top: 15px; */
+  /* line-height: 56px; */
+  
+  
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  /* width: 200px; */
+  /* height: 60px; */
+  
+  /* color: #eee; */
+  /* text-decoration: none;*/
+}
+h4{
+  margin: 21.28px 0 21.28px 0;
+  height: 24px;
+  font-size: 120%;
+  font-weight: 600;
+  }
+  
+h5{
+ margin: 22.178px 0px 22.178px 0px;
+ padding: 3px;
+ height: 20px;
+ line-height: 108%;
+ display: flex;
+  align-items: center;
+  justify-content: left;
+
+ font-weight: 600;
+}
+p{
+margin: 16px 0px 16px 0px;
+line-height: 1.7;	
+}
 .red{
   color: red;
+
 }
  ul a:hover{
 	color: blue;
 	font-weight: bold;
-}
-h1{
-  background-color:aquamarine;
-  padding-left: 2px;
- margin: 21.44px 0px 21.44px 0px;
-}
-h3{
-  background-color: aliceblue;
-  padding-left: 4px;
-  margin: 18.72px 0px 18.72px 0px;
-}
-h5{
- margin: 22.178px 0px 22.178px 0px;
- padding: 3px;
-}
-p{
-margin: 16px 0px 16px 0px;	
 }
 .back-to-top {
   z-index: 100;
@@ -78,11 +126,14 @@ margin: 16px 0px 16px 0px;
   .hyoudai{
 background-color: aquamarine;
 padding-left: 10px;
+line-height: 128%;
+padding-top: 34px;
+    height: 90px
   }
 
   .mae{
     background-color: burlywood;
-    width: 40px;
+    width: 52px;
     padding: 3px;
     border-radius: 2px;
 
@@ -90,14 +141,14 @@ padding-left: 10px;
 
   .go{
 background-color: yellow;
-    width: 40px;
+    width: 52px;
     padding: 3px;
     border-radius: 2px;
   }
 
   .sin{
-    background-color: deeppink;
-    width: 30px;
+    background-color: yellow;
+    width: 35px;
         padding: 3px;
         border-radius: 2px;
       }
@@ -107,6 +158,11 @@ background-color: yellow;
     position: absolute;
     right: 30px;
     top: 18px;
+
+    
+  }
+  .kaisei{
+    display: block;
   }
   @media screen and (min-width: 959px) {
     /* 959px以下に適用されるCSS（タブレット用） */
@@ -122,3 +178,6 @@ background-color: yellow;
     
     }
   }
+.komidasi{
+  color: blue;
+}
